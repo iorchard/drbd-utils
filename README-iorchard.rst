@@ -5,7 +5,8 @@ This is a guide to build drbd-utils package for debian 11 (bullseye).
 
 Install pre-requisite package.::
 
-   $ sudo apt install -y po4a
+   $ sudo apt install -y build-essential flex autoconf automake \
+        debhelper devscripts po4a
 
 Get the drbd-utils and drbd-headers source (drbd-utils depends on drbd-headers
 when it is compiled.).::
